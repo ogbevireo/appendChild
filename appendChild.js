@@ -8,5 +8,5 @@ for (let i = 0; i < 100; i++) {
   button.style.width = '71px';
   button.style.borderRadius = '10px';
   button.style.margin = '3px';
-  document.getElementById('container').appendChild(button);
+  document.querySelector('#container').appendChild(button);
 }
